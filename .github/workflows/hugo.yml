@@ -43,14 +43,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Go Mod Init
+      - name: Go
         uses: actions/setup-go@v4
         with:
           go-version: '1.20'
-          go-version-file: 'notes/go.mod'
-      - run: go mod tidy
+          go-version-file: './notes/go.mod'
+      - name: Go Mod Tidy
+        working-directory: notes
+        run: go mod tidy
       - name: Install Node.js dependencies
-        working-directory: website
+        working-directory: notes
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         working-directory: notes
