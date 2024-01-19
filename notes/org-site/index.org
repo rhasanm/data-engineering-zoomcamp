@@ -1,0 +1,33 @@
+#+hugo_base_dir: ../
+#+author: r_hasan
+#+hugo_draft: false
+
+* Index
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: /
+:END:
+
+** Data Engineer ZoomCamp 2014
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:END:
+- Course URL: https://dezoomcamp.streamlit.app
+- Youtube Playlist: https://www.youtube.com/playlist?list=PL3MmuxUbc_hKihpnNQ9qtTmWYy26bPrSb
+
+* Module 1: Containerization and Infrastructure as Code
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: Module 01
+:END:
+** Containerization and Infrastructure as Code
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:END:
+Hello
+
+
+** Docker
+:PROPERTIES:
+:EXPORT_FILE_NAME: docker
+:END:
+
+started watching the videos

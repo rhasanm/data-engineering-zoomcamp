@@ -1,0 +1,9 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Data Engineer ZooCamp 2024'
+
+theme='github.com/McShelby/hugo-theme-relearn'
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
